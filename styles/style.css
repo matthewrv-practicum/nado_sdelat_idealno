@@ -31,6 +31,7 @@ body::after {
   z-index: 0;
   margin: auto;
   margin-top: 60px;
+  max-width: 800px;
 
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 800;
@@ -68,7 +69,7 @@ body::after {
   letter-spacing: normal;
 
   background-color: #fff;
-  border: 2px black solid;
+  border: 2px currentColor solid;
   border-radius: 20px;
 
   box-shadow: 0 12px 2px black;
